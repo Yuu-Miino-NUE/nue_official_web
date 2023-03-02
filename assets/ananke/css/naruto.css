@@ -1,0 +1,16 @@
+/* 全体的なフォント */
+.jpfonts {
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif !important;
+}
+
+/* 投稿タイトルのフォント */
+.athelas {
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif !important;
+    font-weight: 500;
+}
+
+p > code {
+    font-size: smaller;
+    background-color: gainsboro;
+    padding: .75%;
+}
