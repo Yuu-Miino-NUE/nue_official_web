@@ -15,6 +15,8 @@ draft: true
     - [hugo コマンドで開発用サーバの起動](#hugo-コマンドで開発用サーバの起動)
     - [記事作成・編集](#記事作成編集)
     - [main ブランチにマージ](#main-ブランチにマージ)
+    - [ローカルの main ブランチを Github に push](#ローカルの-main-ブランチを-github-に-push)
+    - [本番環境に pull](#本番環境に-pull)
 
 # サイト編集手順の確認
 
@@ -81,6 +83,8 @@ $ hugo server -D
 $ hugo new logs/miino_logs_20230306.md
 ```
 
+あとはお好きなエディタで Markdown ファイルを修正します．
+
 小まめに `commit`（セーブ）した方が良いでしょう．
 
 ```shell
@@ -92,6 +96,8 @@ $ git commit -am '執筆：Github から clone'
 ```shell
 $ git push origin feature/miino_logs
 ```
+
+> リモートにブランチがない場合，`-u` の指定を促されるかもしれません．
 
 ### main ブランチにマージ
 Github のデフォルトブランチは `main` です．
@@ -115,3 +121,20 @@ $ git checkout main
 $ git merge feature/miino_logs
 ```
 
+競合（`conflict`）がなければ，コメントを書いて統合完了です．
+
+### ローカルの main ブランチを Github に push
+```shell
+$ git push origin main
+```
+
+### 本番環境に pull
+本番環境で最新の `main` ブランチを `pull` します．
+
+```shell
+$ git pull origin main
+```
+
+この行程は，Github Actions で自動化できます．
+具体的には，「`main` ブランチが変更されれば，本番環境にデプロイする」という
+プログラムを組めます．
