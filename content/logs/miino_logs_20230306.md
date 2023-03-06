@@ -7,4 +7,4 @@ description: ""
 draft: true
 ---
 
-1. [Github による運用のすゝめ（CLI 版）](/posts/how_to_github) を執筆
+1. [Github による運用のすゝめ（CLI 版）]({{<ref "how_to_github">}}) を執筆
