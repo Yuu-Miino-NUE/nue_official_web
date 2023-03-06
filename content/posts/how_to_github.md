@@ -63,6 +63,7 @@ $ hugo new logs/miino_logs_20230306.md
 ```
 
 あとはお好きなエディタで Markdown ファイルを修正します．
+[別記事]({{<ref "how_to_write">}}) で執筆についていくらかまとめました．
 
 小まめに `commit`（セーブ）した方が良いでしょう．
 
