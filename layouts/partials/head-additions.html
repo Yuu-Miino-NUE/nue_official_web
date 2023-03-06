@@ -1,5 +1,4 @@
 {{ range .Params.custom_css }}
-<mine>"{{ . }} {{ relURL . }}"</mine>
 <link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
 
