@@ -1,0 +1,11 @@
+{{ range .Params.custom_css }}
+<link rel="stylesheet" href="{{.}}">
+{{ end }}
+
+{{ range .Params.custom_js_module }}
+<script type="module" src="{{.}}"></script>
+{{ end }}
+
+{{ range .Params.custom_js }}
+<script src="{{.}}"></script>
+{{ end }}
