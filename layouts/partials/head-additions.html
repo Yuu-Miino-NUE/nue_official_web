@@ -1,11 +1,11 @@
 {{ range .Params.custom_css }}
-<link rel="stylesheet" href="{{ . | relURL}}">
+<link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
 
 {{ range .Params.custom_js_module }}
-<script type="module" src="{{ . | relURL}}"></script>
+<script type="module" src="{{ . | relURL }}"></script>
 {{ end }}
 
 {{ range .Params.custom_js }}
-<script src="{{ . | relURL}}"></script>
+<script src="{{ . | relURL }}"></script>
 {{ end }}
