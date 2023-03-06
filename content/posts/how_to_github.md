@@ -110,6 +110,13 @@ $ git merge feature/miino_logs
 
 競合（`conflict`）がなければ，コメントを書いて統合完了です．
 
+マージ後は作業ブランチを削除しましょう．
+
+```shell
+$ git branch -d feature/miino_logs      # ローカル
+$ git push origin -d feature/miino_logs # リモート（Github）
+```
+
 # ローカルの main ブランチを Github に push
 ```shell
 $ git push origin main
