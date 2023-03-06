@@ -69,7 +69,7 @@ $ diff ./themes/ananke/layouts/_default/single.html ./layouts/_default/single.ht
 ```
 
 ## `partials/page-header.html`
-* `header` への `no-print` クラスの付与
+* `header` への `no-print` クラスの付与（[別記事]({{<ref "custom_js.md">}}) にて説明）
 
 ```shell
 $ diff ./themes/ananke/layouts/partials/page-header.html ./layouts/partials/page-header.html
