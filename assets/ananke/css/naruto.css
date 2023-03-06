@@ -9,7 +9,7 @@
     font-weight: 500;
 }
 
-p > code {
+p > code, li > code {
     font-size: smaller;
     background-color: gainsboro;
     padding: .75%;
