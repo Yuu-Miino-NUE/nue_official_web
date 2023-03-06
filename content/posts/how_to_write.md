@@ -4,7 +4,6 @@ date: 2023-03-02T23:42:30+09:00
 tags: []
 featured_image: ""
 description: ""
-draft: true
 ---
 
 - [基本](#基本)

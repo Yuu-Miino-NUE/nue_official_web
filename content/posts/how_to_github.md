@@ -4,7 +4,6 @@ date: 2023-03-06T11:19:09+09:00
 tags: []
 featured_image: "https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/GitHub.jpeg"
 description: ""
-draft: true
 ---
 
 ---
