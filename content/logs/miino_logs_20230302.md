@@ -1,6 +1,7 @@
 ---
 title: Miino's log, the 1st day
 date: 2023-03-02T16:12:35+09:00
+author: "Yuu Miino"
 ---
 ---
 - [概要](#概要)

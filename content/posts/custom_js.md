@@ -4,6 +4,7 @@ date: 2023-03-06T15:06:48+09:00
 tags: []
 featured_image: "/images/json_timetable.png"
 description: ""
+author: "Yuu Miino"
 ---
 
 - [概要](#概要)
@@ -38,11 +39,11 @@ custom_js: [
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 ]
 custom_js_module: [
-    "/scripts/index.js"
+    "scripts/index.js"
 ]
 custom_css: [
     "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
-    "/styles/json_timetable.css"
+    "styles/json_timetable.css"
 ]
 ---
 <div class="ttbody mx-auto">
@@ -70,20 +71,22 @@ custom_css: [
 
 ```go
 {{ range .Params.custom_css }}
-<link rel="stylesheet" href="{{.}}">
+<link rel="stylesheet" href="{{ . | relURL }}">
 {{ end }}
 
 {{ range .Params.custom_js_module }}
-<script type="module" src="{{.}}"></script>
+<script type="module" src="{{ . | relURL }}"></script>
 {{ end }}
 
 {{ range .Params.custom_js }}
-<script src="{{.}}"></script>
+<script src="{{ . | relURL }}"></script>
 {{ end }}
 ```
 
 `.Params.custom_css` は，各ファイルの Front matter で設定された `custom_css` の配列です．
-配列の各値に対して，`stylesheet` の読み込みを行います（その他も同様）．
+配列の各値 `{{ . }}` に対して，`stylesheet` の読み込みを行います（その他も同様）．
+常に絶対パスを使う場合には `href="{{ . }}"` で良いのですが，相対パスを使うことのほうが多かろうと思いますので，
+`relURL` 関数で `.Site.BaseURL` を適用できるようにしてあります．
 
 `json_timetable.html` の場合，`head-additions.html` は下記のように展開され，`head` タグ内に記述されます．
 

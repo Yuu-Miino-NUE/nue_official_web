@@ -4,6 +4,7 @@ date: 2023-03-06T11:19:09+09:00
 tags: []
 featured_image: "https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/GitHub.jpeg"
 description: ""
+author: "Yuu Miino"
 ---
 
 ---
@@ -12,7 +13,7 @@ description: ""
 - [記事作成・編集](#記事作成編集)
 - [ローカルの main ブランチに作業ブランチをマージ](#ローカルの-main-ブランチに作業ブランチをマージ)
 - [ローカルの main ブランチを Github に push](#ローカルの-main-ブランチを-github-に-push)
-- [本番環境に pull](#本番環境に-pull)
+- [本番環境にデプロイ](#本番環境にデプロイ)
 
 ---
 
@@ -105,8 +106,12 @@ $ git pull origin main
 
 ```shell
 $ git checkout main
-$ git merge feature/miino_logs
+$ git merge --no-ff feature/miino_logs
 ```
+`--no-ff` オプションをつけると，どんな場合でもマージコミットを生成します．
+`git log` で作業ブランチの情報を残すときに便利です．
+> デフォルト（`--ff` が設定されている）では，作業ブランチの派生元コミットから最新の状態までに何もコミットがなければ，`main` ブランチにそのまま延長する形で
+> `feature/miino_logs` をマージします．その際，ブランチの情報は `git log` に残りません．
 
 競合（`conflict`）がなければ，コメントを書いて統合完了です．
 
@@ -119,16 +124,29 @@ $ git push origin -d feature/miino_logs # リモート（Github）
 
 # ローカルの main ブランチを Github に push
 ```shell
-$ git push origin main
+$ git push -u origin main
 ```
+> 二回目以降は `git push` のみでリモートにアップできます．
+>
+> 初回はログインを要求されるでしょう．
 
-# 本番環境に pull
+# 本番環境にデプロイ
 本番環境で最新の `main` ブランチを `pull` します．
 
 ```shell
 $ git pull origin main
 ```
 
+`hugo` コマンドでコンパイルし，生成される `public` フォルダの中身を本番環境にコピペします．
+> とはいえ，コピペよりシンボリックリンクが楽でしょう．
+
+```shell
+$ hugo
+$ cp -r public <公開ディレクトリ>
+```
+
+
 この行程は，Github Actions で自動化できます．
 具体的には，「`main` ブランチが変更されれば，本番環境にデプロイする」という
 プログラムを組めます．
+> ホストに接続するために SSH の秘密鍵などを Github に登録する必要があるので，ポリシー的に大丈夫かどうかはわかりません．

@@ -4,6 +4,7 @@ date: 2023-03-06T14:32:07+09:00
 tags: []
 featured_image: ""
 description: ""
+author: "Yuu Miino"
 ---
 
 - [手順](#手順)

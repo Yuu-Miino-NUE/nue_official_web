@@ -4,6 +4,7 @@ date: 2023-03-02T23:42:30+09:00
 tags: []
 featured_image: ""
 description: ""
+author: "Yuu Miino"
 ---
 
 - [基本](#基本)

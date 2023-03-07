@@ -10,7 +10,9 @@
 }
 
 p > code, li > code {
-    font-size: smaller;
     background-color: gainsboro;
-    padding: .75%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: .4%;
+    vertical-align: middle;
 }
