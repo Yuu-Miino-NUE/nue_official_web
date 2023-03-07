@@ -4,6 +4,7 @@ date: 2023-03-06T11:19:09+09:00
 tags: []
 featured_image: "https://thurrott.s3.amazonaws.com/wp-content/uploads/sites/2/2023/01/GitHub.jpeg"
 description: ""
+author: "Yuu Miino"
 ---
 
 ---
@@ -12,7 +13,7 @@ description: ""
 - [記事作成・編集](#記事作成編集)
 - [ローカルの main ブランチに作業ブランチをマージ](#ローカルの-main-ブランチに作業ブランチをマージ)
 - [ローカルの main ブランチを Github に push](#ローカルの-main-ブランチを-github-に-push)
-- [本番環境に pull](#本番環境に-pull)
+- [本番環境にデプロイ](#本番環境にデプロイ)
 
 ---
 
@@ -122,13 +123,23 @@ $ git push origin -d feature/miino_logs # リモート（Github）
 $ git push origin main
 ```
 
-# 本番環境に pull
+# 本番環境にデプロイ
 本番環境で最新の `main` ブランチを `pull` します．
 
 ```shell
 $ git pull origin main
 ```
 
+`hugo` コマンドでコンパイルし，生成される `public` フォルダの中身を本番環境にコピペします．
+（シンボリックリンクが楽かもしれません．）
+
+```shell
+$ hugo
+$ cp -r public <本番環境>
+```
+
+
 この行程は，Github Actions で自動化できます．
 具体的には，「`main` ブランチが変更されれば，本番環境にデプロイする」という
 プログラムを組めます．
+> ホストに接続するために SSH の秘密鍵などを Github に登録する必要があるので，ポリシー的に大丈夫かどうかはわかりません．

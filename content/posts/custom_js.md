@@ -4,6 +4,7 @@ date: 2023-03-06T15:06:48+09:00
 tags: []
 featured_image: "/images/json_timetable.png"
 description: ""
+author: "Yuu Miino"
 ---
 
 - [概要](#概要)
