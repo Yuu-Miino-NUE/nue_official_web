@@ -120,8 +120,11 @@ $ git push origin -d feature/miino_logs # リモート（Github）
 
 # ローカルの main ブランチを Github に push
 ```shell
-$ git push origin main
+$ git push -u origin main
 ```
+> 二回目以降は `git push` のみでリモートにアップできます．
+>
+> 初回はログインを要求されるでしょう．
 
 # 本番環境にデプロイ
 本番環境で最新の `main` ブランチを `pull` します．
@@ -131,11 +134,11 @@ $ git pull origin main
 ```
 
 `hugo` コマンドでコンパイルし，生成される `public` フォルダの中身を本番環境にコピペします．
-（シンボリックリンクが楽かもしれません．）
+> とはいえ，コピペよりシンボリックリンクが楽でしょう．
 
 ```shell
 $ hugo
-$ cp -r public <本番環境>
+$ cp -r public <公開ディレクトリ>
 ```
 
 
