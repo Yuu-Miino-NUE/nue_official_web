@@ -106,8 +106,12 @@ $ git pull origin main
 
 ```shell
 $ git checkout main
-$ git merge feature/miino_logs
+$ git merge --no-ff feature/miino_logs
 ```
+`--no-ff` オプションをつけると，どんな場合でもマージコミットを生成します．
+`git log` で作業ブランチの情報を残すときに便利です．
+> デフォルト（`--ff` が設定されている）では，作業ブランチの派生元コミットから最新の状態までに何もコミットがなければ，`main` ブランチにそのまま延長する形で
+> `feature/miino_logs` をマージします．その際，ブランチの情報は `git log` に残りません．
 
 競合（`conflict`）がなければ，コメントを書いて統合完了です．
 
