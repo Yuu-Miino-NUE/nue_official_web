@@ -10,7 +10,7 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "ja"
 SectionPagesMenu = "main"
-Paginate = 10 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 100 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -32,6 +32,7 @@ enableRobotsTXT = true
     custom_css = ["naruto.css"]
     body_classes = "jpfonts bg-near-white"
     post_content_classes = "jpfonts"
+    toc = true
 
 [[params.ananke_socials]]
     name = "github"

@@ -6,7 +6,7 @@
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100 no-print">
+    <header class="w-100 mt4">
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
@@ -40,7 +40,7 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-100">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-75-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
@@ -51,6 +51,12 @@
         {{- partial "commento.html" . -}}
       {{ end }}
       </div>
+    </div>
+
+    <div class="w-100 w-20-l ph5-m ph0-l mb4 sticky">
+    <aside class="mw5-l right-0 f6 bl-l b--moon-gray">
+      {{- partial "menu-contextual.html" . -}}
+    </aside>
     </div>
 
   </article>

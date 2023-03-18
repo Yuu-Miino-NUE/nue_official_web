@@ -1,0 +1,4 @@
+---
+title: miino
+headless: true
+---
