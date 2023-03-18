@@ -30,3 +30,32 @@ p > code, li > code {
 html {
     scroll-behavior: smooth;
 }
+
+table {
+    border-spacing: 10pt 3pt;
+}
+
+.hd-important {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    width: 60pt;
+    padding: 1pt;
+    white-space: nowrap;
+}
+
+.hd-notice {
+    color: white;
+    background-color: green;
+    width: 60pt;
+    padding: 1pt;
+    white-space: nowrap;
+}
+
+.hd-incident {
+    color: black;
+    background-color: gold;
+    width: 60pt;
+    padding: 1pt;
+    white-space: nowrap;
+}

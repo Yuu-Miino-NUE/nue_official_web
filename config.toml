@@ -32,7 +32,7 @@ enableRobotsTXT = true
     custom_css = ["naruto.css"]
     body_classes = "jpfonts bg-near-white"
     post_content_classes = "jpfonts"
-    toc = true
+    date_format = "2006/01/02"
 
 [[params.ananke_socials]]
     name = "github"

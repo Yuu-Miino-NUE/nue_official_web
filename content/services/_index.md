@@ -2,7 +2,7 @@
 title:  サービス一覧
 description: Service list
 weight: 3
-featured_image: "https://thumbs.dreamstime.com/b/hands-presenting-our-services-to-you-cube-letters-two-palms-services-our-hands-102690459.jpg"
+featured_image: "https://media.istockphoto.com/id/1059548978/photo/technical-support-concept-business-person-touching-helpdesk-icon-on-screen-hotline-assistance.jpg?b=1&s=612x612&w=0&k=20&c=4cr9chcTRuBae8y6wZWNcI-lPH0DkQ_LNJzqD8_RxjE="
 ---
 <!--  サービス一覧 (Services)
 ------------------
