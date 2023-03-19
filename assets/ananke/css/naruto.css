@@ -34,6 +34,25 @@ html {
 table {
     border-spacing: 10pt 3pt;
 }
+.table-a {
+    border-collapse: collapse;
+    font-size: small;
+    background-color: white;
+}
+.table-a td:nth-child(1) {
+    width: 120pt;
+    text-align: center;
+}
+.table-a td:nth-child(2) {
+    width: 120pt;
+}
+.table-a td:nth-child(3) {
+    width: 150pt;
+    text-align: center;
+}
+.table-a tr {
+    border-bottom: .5pt solid gray;
+}
 
 .hd-important {
     color: white;

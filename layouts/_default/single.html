@@ -40,7 +40,7 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ cond (eq (.Params.toc) true) "w75-l" "w100-l" }}">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-75-l{{ else }}w-100-l{{ end }}">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
@@ -53,11 +53,13 @@
       </div>
     </div>
 
-    <div class="w-100 w-20-l ph5-m ph0-l mb4 sticky">
+    {{ if .Params.toc }}
+    <div class="w-20-l ph5-m ph0-l mb4 sticky">
     <aside class="mw5-l right-0 f6 bl-l b--moon-gray">
       {{- partial "menu-contextual.html" . -}}
     </aside>
     </div>
+    {{ end }}
 
   </article>
 {{ end }}

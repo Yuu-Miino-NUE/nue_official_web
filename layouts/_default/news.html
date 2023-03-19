@@ -6,7 +6,7 @@
     <section class="flex-ns flex-wrap justify-around mt5">
       {{ range .Sections.ByWeight }}
         <div class="relative w-100 w-100-l mb4 bg-white">
-          {{ .Render "list_latest_news" }}
+          {{- partial "list_latest_news.html" . -}}
         </div>
       {{ end }}
     </section>

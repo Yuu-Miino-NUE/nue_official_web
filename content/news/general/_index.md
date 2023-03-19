@@ -1,5 +1,5 @@
 ---
 title: 一般
-toc: true
 weight: 10
+layout: news_summary
 ---

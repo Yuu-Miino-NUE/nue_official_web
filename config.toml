@@ -37,3 +37,6 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
     name = "github"
     url = "https://github.com/Yuu-Miino-NUE/nue_official_web/tree/main"
+
+[markup.goldmark.parser.attribute]
+    block = true
