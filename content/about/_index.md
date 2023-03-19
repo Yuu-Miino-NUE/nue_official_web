@@ -1,6 +1,7 @@
 ---
-title: センター案内
-description: Center information
+title: センター紹介
+description: Introduction
 weight: 2
 featured_image: '/images/center.png'
+toc: true
 ---
