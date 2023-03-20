@@ -1,9 +1,9 @@
 ---
 title: プリンタ（複合機）
 toc: true
+weight: 60
 ---
-プリンタ（複合機）
----------
+
 このページの内容 ![](./img/icon-arrow-down-blue.gif)
 * [端末室複合機](#printer)
 * [大判プリンタ](#large-printer)

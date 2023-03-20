@@ -2,7 +2,7 @@
   <div class="page-pannel">
   <p class="f5 b mb0">{{ .Title }}</p>
   <nav><ul class="mv0">
-    {{ range .Pages }}
+    {{ range .RegularPages }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul></nav>
