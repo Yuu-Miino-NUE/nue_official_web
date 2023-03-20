@@ -131,3 +131,22 @@ table {
 .bg-indigo {
     background-color:#0059b3;
 }
+
+.links ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.links li {
+    padding: 0px;
+}
+
+.links li a {
+    text-decoration-line: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+}
