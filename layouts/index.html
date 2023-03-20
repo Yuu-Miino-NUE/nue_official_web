@@ -1,0 +1,29 @@
+{{ define "main" }}
+  {{/* Create a variable with that section to use in multiple places. */}}
+  {{ $section := where .Site.RegularPages "Params.heading" "!=" nil }}
+  {{/* Check to see if the section is defined for ranging through it */}}
+  {{ $section_count := len $section }}
+  {{ if ge $section_count 1 }}
+    <div class="pa3 pa4-ns w-100 w-80-ns center">
+      {{ $n_posts := $.Param "recent_top_news" | default 3 }}
+      <section class="mb4 w-100-l flex-l flex-wrap justify-center">
+        <div class="relative w-100 mb4 bg-white nested-copy-line-height">
+          <div class="mb3 pa4 pv3 gray overflow-hidden">
+            <h1 class="f3 near-black">
+              {{ i18n "topNews" }}
+            </h1>
+            <div class="nested-links f5 lh-copy">
+              {{ $page_count := len .Pages }}
+              {{ with (first $n_posts $section.ByDate.Reverse) }}
+              {{- partial "partials/news_table.html" . -}}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+  {{ end }}
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | default "mid-gray" }}">
+    {{ .Content }}
+  </article>
+{{ end }}

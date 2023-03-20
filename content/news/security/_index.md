@@ -1,6 +1,5 @@
 ---
-title: 情報セキュリティに関するお知らせ
-layout: news_summary
+title: 情報セキュリティ
 ---
 
 ### IPA サイバーセキュリティ注意喚起サービス iCat

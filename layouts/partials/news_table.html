@@ -1,0 +1,16 @@
+<table><tbody>
+{{ range . }}
+    <tr class="relative w-100 mb4">
+    <td class="courier"><span>
+        {{ .Date | time.Format (default "2006/01/02" .Site.Params.date_format) }}
+    </span></td>
+    <td class="tc hd-{{ .Params.Heading }}">
+        {{ $i18nHeading := printf "%sHeading" .Params.Heading }}
+        <span> {{ i18n $i18nHeading }} </span>
+    </td>
+    <td>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </td>
+    </tr>
+{{ end }}
+</tbody></table>

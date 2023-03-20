@@ -5,10 +5,6 @@ date: 2023-03-02T16:12:35+09:00
 featured_image: '/images/center.png'
 ---
 
-# センターの紹介
-
-ここに書いても OK ほい
-
 # Quick Service Links
 - [無線LAN (Wi-Fi)![](./img/icon-wifi.png)](./network.html#wireless-lan)
 - [電子メール (E-mail)![](./img/icon-mail.png)](./mail.html)

@@ -13,7 +13,7 @@
       </h1>
     </header>
     <div class="relative w-100 w-100-l mb4 bg-white">
-        {{- partial "list_all_news.html" . -}}
+        {{- partial "all-section-news.html" . -}}
     </div>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-75-l{{ else }}w-100-l{{ end }}">
       {{- .Content -}}
