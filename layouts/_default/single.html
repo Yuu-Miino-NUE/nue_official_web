@@ -43,11 +43,13 @@
     </header>
     <div class="w-20-l mt4"></div>
 
+    {{ with .CurrentSection }}
     <div class="w-20-l ph5-m ph0-l sticky">
     <aside class="pl3">
       {{- partial "pages-pannel.html" . -}}
     </aside>
     </div>
+    {{ end }}
 
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-50-l{{ else }}w-80-l{{ end }}">
       {{- .Content -}}
