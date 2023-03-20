@@ -121,3 +121,13 @@ table {
 #TableOfContents a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 960px) {
+    .dn-mobile {
+        display: none;
+    }
+}
+
+.bg-indigo {
+    background-color:#0059b3;
+}
