@@ -1,6 +1,6 @@
 ---
 title: センター紹介
-description: Introduction
+description: About us
 weight: 2
 featured_image: '/images/center.png'
 toc: true

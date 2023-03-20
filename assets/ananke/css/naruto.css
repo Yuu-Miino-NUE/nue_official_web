@@ -20,7 +20,7 @@ p > code, li > code {
 .sticky {
     position:-webkit-sticky;
     position: sticky;
-    top: 5rem;
+    top: 4rem;
     right: 0;
     z-index: 2;
     height: calc(100vh - 7rem);
@@ -77,4 +77,35 @@ table {
     width: 60pt;
     padding: 1pt;
     white-space: nowrap;
+}
+
+.page-pannel li {
+    padding: 0px;
+    border-bottom: .5pt solid gray;
+    text-align: center;
+}
+
+.page-pannel li a {
+    text-decoration-line: none;
+    color: gray;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+}
+
+.page-pannel li a:hover{
+    background-color: gainsboro;
+    color: gray;
+}
+
+.page-pannel .f5 {
+    border-top: 1.2pt solid green;
+    border-bottom: .8pt solid gray;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    background-color: whitesmoke;
+    text-align: center;
 }
