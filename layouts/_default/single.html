@@ -5,8 +5,9 @@
 
 {{ define "main" }}
   {{ $section := .Site.GetPage "section" .Section }}
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="w-100 mt4">
+  <article class="flex-l flex-wrap justify-between mw9 center ph3">
+    <div class="w-20-l mt4"></div>
+    <header class="w-50-l mt4">
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
@@ -40,7 +41,15 @@
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
       {{ end }}
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-75-l{{ else }}w-100-l{{ end }}">
+    <div class="w-20-l mt4"></div>
+
+    <div class="w-20-l ph5-m ph0-l sticky">
+    <aside class="pl3">
+      {{- partial "pages-pannel.html" . -}}
+    </aside>
+    </div>
+
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-50-l{{ else }}w-80-l{{ end }}">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
       <div class="mt6 instapaper_ignoref">
@@ -54,7 +63,7 @@
     </div>
 
     {{ if .Params.toc }}
-    <div class="w-20-l ph5-m ph0-l mb4 sticky">
+    <div class="w-20-l ph5-m ph0-l sticky">
     <aside class="mw5-l right-0 f6 bl-l b--moon-gray">
       {{- partial "menu-contextual.html" . -}}
     </aside>

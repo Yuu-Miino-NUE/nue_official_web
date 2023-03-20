@@ -109,3 +109,15 @@ table {
     background-color: whitesmoke;
     text-align: center;
 }
+
+#TableOfContents ul ul > li {
+    margin-left: 13px;
+}
+
+#TableOfContents ul ul {
+    margin-top: 7px;
+}
+
+#TableOfContents a {
+    text-decoration: none;
+}
