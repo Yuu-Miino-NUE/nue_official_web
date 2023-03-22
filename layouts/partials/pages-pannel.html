@@ -1,10 +1,14 @@
+{{ $currentID := "" }}
+{{ with .File }}{{ $currentID = .UniqueID }}{{ end }}
+{{ with .CurrentSection }}
 <div class="nested-list-reset nested-copy-line-height nested-links pa2">
   <div class="page-pannel">
   <p class="f5 b mv0">{{ .Title }}</p>
   <nav><ul class="mv0">
     {{ range .RegularPages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      <li><a href="{{ .RelPermalink }}" {{if eq $currentID .File.UniqueID}}aria-current="page"{{end}}>{{ .Title }}</a></li>
     {{ end }}
   </ul></nav>
   </div>
 </div>
+{{ end }}

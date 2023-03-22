@@ -9,7 +9,7 @@
     <div class="w-20-l mt4"></div>
     <header class="mt4 {{ if .Params.toc }}w-50-l{{ else }}w-70-l{{ end }}">
       {{ partial "social-share.html" . }}
-      <h1 class="f1 athelas mt3 mb1">
+      <h1 class="f1 mt3 mb1">
         {{- .Title -}}
       </h1>
       {{ with .Params.author | default .Site.Params.author }}
@@ -45,13 +45,11 @@
     <div class="w-20-l mt4"></div>
     {{ end }}
 
-    {{ with .CurrentSection }}
     <div class="w-20-l ph5-m ph0-l dn-mobile sticky">
     <aside class="pl3">
       {{- partial "pages-pannel.html" . -}}
     </aside>
     </div>
-    {{ end }}
 
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} {{ if .Params.toc }}w-50-l{{ else }}w-70-l{{ end }}">
       {{- .Content -}}

@@ -3,12 +3,6 @@
     font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif !important;
 }
 
-/* 投稿タイトルのフォント */
-.athelas {
-    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif !important;
-    font-weight: 500;
-}
-
 p > code, li > code {
     background-color: gainsboro;
     margin-top: 20px;
@@ -52,6 +46,25 @@ table {
 }
 .table-a tr {
     border-bottom: .5pt solid gray;
+}
+.table-b {
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.table-b tr {
+    border-bottom: .5pt solid gray;
+    font-size: smaller;
+}
+.table-b thead td {
+    text-align: center;
+}
+.table-b tbody td {
+    text-align: right;
+    padding: 9px 15px 9px 15px;
+}
+.table-b tbody td:nth-child(3) {
+    text-align: center;
 }
 
 .hd-important {
@@ -108,6 +121,10 @@ table {
     padding-bottom: 15pt;
     background-color: whitesmoke;
     text-align: center;
+}
+
+.page-pannel [aria-current]:not([aria-current="false"]) {
+    background-color: gainsboro;
 }
 
 #TableOfContents ul ul > li {
