@@ -5,16 +5,13 @@ summary: 各種規定・要項など
 ---
 ### 鳴門教育大学情報基盤センター利用規程
 
-お使いのブラウザではframeを表示できません。
+[regulation.pdf](regulation.pdf)
 
 
 ### 鳴門教育大学情報基盤センター利用経費取扱要項
 
-お使いのブラウザではframeを表示できません。
-
+[user-regulation.pdf](user-regulation.pdf)
 
 ### 鳴門教育大学情報基盤センター利用申請要項
 
-お使いのブラウザではframeを表示できません。
-
-
+[user-application.pdf](user-application.pdf)
