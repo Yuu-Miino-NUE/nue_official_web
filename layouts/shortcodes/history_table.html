@@ -1,0 +1,17 @@
+<div class="mt5 mw7 bg-white flex justify-center">
+<table class="table-b">
+<thead class="fw7">
+{{ $slice := slice "jyear" "month" "event"}}
+<tr>
+{{ range $slice }}  <td>{{ i18n . }}</td> {{ end }}
+</tr>
+</thead>
+<tbody>
+{{ range $.Site.Data.history }}
+<tr><td>{{ .jyear }} {{ i18n "jyear" }}</td><td>{{ .month }}
+    {{ if (ne .month nil) }}{{ i18n "month" }}{{ end }}
+    </td><td>{{ .event }}</td></tr>
+{{ end }}
+</tbody>
+</table>
+</div>

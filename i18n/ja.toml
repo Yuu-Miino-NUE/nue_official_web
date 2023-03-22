@@ -62,3 +62,12 @@ other = "外部リンク"
 
 [forDetail]
 other = "詳しくはこちら"
+
+[jyear]
+other = "年"
+
+[month]
+other = "月"
+
+[event]
+other = "出来事"
