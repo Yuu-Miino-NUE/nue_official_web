@@ -147,6 +147,7 @@ table {
 
 .bg-indigo {
     background-color:#0059b3;
+    border-left: green solid 20pt;
 }
 
 .links ul {
