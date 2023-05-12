@@ -9,7 +9,6 @@ weight: 140
 
 ### 利用の条件
 申請の必要はありません。  
-接続にはユーザーアカウントが必要です。
 
 ### 利用方法
 Microsoft Windows7 からの接続方法は，[こちら](./attached/RemoteDeskTop-in-win7.pdf)をご覧ください。  
