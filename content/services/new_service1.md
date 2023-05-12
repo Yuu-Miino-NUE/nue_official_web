@@ -6,5 +6,7 @@ weight: 130
 ---
 
 ## 新しいサービス
+hogehoge
 
 ## 利用方法
+foo bar
