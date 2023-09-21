@@ -36,5 +36,7 @@ enableRobotsTXT = true
     post_content_classes = "jpfonts"
     date_format = "2006/01/02"
 
+    CustomSearchId = "1038c374a3d07623e"
+
 [markup.goldmark.parser.attribute]
     block = true
