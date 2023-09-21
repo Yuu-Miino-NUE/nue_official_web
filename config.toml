@@ -36,9 +36,5 @@ enableRobotsTXT = true
     post_content_classes = "jpfonts"
     date_format = "2006/01/02"
 
-[[params.ananke_socials]]
-    name = "github"
-    url = "https://github.com/Yuu-Miino-NUE/nue_official_web/tree/main"
-
 [markup.goldmark.parser.attribute]
     block = true
