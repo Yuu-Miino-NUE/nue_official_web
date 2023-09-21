@@ -5,8 +5,8 @@
   {{ $section_count := len $section }}
   {{ if ge $section_count 1 }}
     {{ $n_posts := $.Param "recent_top_news" | default 3 }}
-    <article class="flex-l flex-wrap justify-center mw9 center ph3 pt5"></article>
-      <section class="w-100 w-70-l center">
+    <article class="w-70-l flex-l flex-wrap justify-center mw9 center ph3 pt5">
+      <section class="w-100 center">
         <div class="relative w-100 pb2 bg-white nested-copy-line-height">
           <div class="mb3 pa4 pv3 gray overflow-hidden">
             <h1 class="f3 near-black">
@@ -23,6 +23,9 @@
       </section>
     </article>
   {{ end }}
+  <article class="w-70-l flex-l flex-wrap justify-center mw9 center ph3 pt5">
+    <h2><a href="https://forms.office.com/r/UtE23YGurr">{{ i18n "toContact" }}</a></h2>
+  </article>
   <article class="w-70-l flex-l flex-wrap justify-center mw9 center ph3 pt5">
     <div class="relative w-100 w-70-l">
       {{ .Content }}

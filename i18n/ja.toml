@@ -71,3 +71,6 @@ other = "月"
 
 [event]
 other = "出来事"
+
+[toContact]
+other = "お問い合わせはこちらのフォームから"
