@@ -1,4 +1,4 @@
-baseURL = 'localhost/center/it/new/'
+baseURL = 'http://localhost/center/it/new/'
 # baseURL = '/dev02/public/'
 languageCode = 'ja-jp'
 title = '鳴門教育大学 情報基盤センター'
