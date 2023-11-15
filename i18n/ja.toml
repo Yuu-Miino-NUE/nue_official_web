@@ -74,3 +74,9 @@ other = "出来事"
 
 [toContact]
 other = "お問い合わせはこちらのフォームから"
+
+[search]
+other = "検索"
+
+[searchPlaceholder]
+other = "情報基盤センター内検索"
