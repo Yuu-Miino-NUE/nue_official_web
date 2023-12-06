@@ -54,7 +54,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://www.naruto-u.ac.jp/center/it/new/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
