@@ -69,17 +69,18 @@ jobs:
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          echo "${{ secrets.WEB_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/ssh_private_key
+          echo "${{ secrets.WEB_PRIVATE_KEY }}" > ~/.ssh/web_private_key
+          chmod 600 ~/.ssh/*_private_key
           echo "Host ssh-server" >> ~/.ssh/config
           echo "  HostName ${{ vars.SSH_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.SSH_USER }}" >> ~/.ssh/config
-          echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/ssh_private_key" >> ~/.ssh/config
           echo "  DynamicForward 10080" >> ~/.ssh/config
           echo "Host web-server" >> ~/.ssh/config
           echo "  HostName ${{ vars.WEB_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.WEB_USER }}" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/web_private_key" >> ~/.ssh/config
           echo "  ProxyJump ssh-server" >> ~/.ssh/config
           ssh-keyscan -H ${{ vars.SSH_HOST }} >> ~/.ssh/known_hosts
           ssh-keyscan -H ${{ vars.WEB_HOST }} >> ~/.ssh/known_hosts
