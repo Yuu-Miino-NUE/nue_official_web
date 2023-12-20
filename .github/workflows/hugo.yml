@@ -56,7 +56,7 @@ jobs:
             --minify \
             --baseURL "${{ vars.BASE_URL }}/"
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: public
           path: ./public
@@ -88,7 +88,7 @@ jobs:
           echo "  UserKnownHostsFile NUL" >> ~/.ssh/config
           echo "  ProxyJump ssh-server" >> ~/.ssh/config
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: public
           path: ./public
