@@ -93,4 +93,5 @@ jobs:
           path: ./public
       - name: Deploy to web-server
         run: |
+          apt-get install rsync
           rsync -avz --delete ./public/ web-server:/var/www/nue-its-web
