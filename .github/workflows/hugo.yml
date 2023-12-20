@@ -91,7 +91,6 @@ jobs:
         with:
           name: public
           path: ./public
+      - uses: GuillaumeFalourd/setup-rsync@v1.2
       - name: Deploy to web-server
-        run: |
-          apt-get install rsync
-          rsync -avz --delete ./public/ web-server:/var/www/nue-its-web
+        run: rsync -avz --delete ./public/ web-server:/var/www/nue-its-web
