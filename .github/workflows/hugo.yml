@@ -77,10 +77,14 @@ jobs:
           echo "  User ${{ vars.SSH_USER }}" >> ~/.ssh/config
           echo "  IdentityFile ~/.ssh/ssh_private_key" >> ~/.ssh/config
           echo "  DynamicForward 10080" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+          echo "  UserKnownHostsFile NUL" >> ~/.ssh/config
           echo "Host web-server" >> ~/.ssh/config
           echo "  HostName ${{ vars.WEB_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.WEB_USER }}" >> ~/.ssh/config
           echo "  IdentityFile ~/.ssh/web_private_key" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+          echo "  UserKnownHostsFile NUL" >> ~/.ssh/config
           echo "  ProxyJump ssh-server" >> ~/.ssh/config
       - name: Download artifact
         uses: actions/download-artifact@v2
@@ -89,4 +93,4 @@ jobs:
           path: ./public
       - name: Deploy to web-server
         run: |
-          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./public/ web-server:/var/www/nue-its-web
+          rsync -avz --delete -e "ssh" ./public/ web-server:/var/www/nue-its-web
