@@ -93,5 +93,6 @@ jobs:
           path: ./public
       - name: Deploy to web-server
         run: |
-          ls -al .ssh/
+          pwd
+          ls -al ~/.ssh/
           rsync -avz --delete ./public/ web-server:/var/www/nue-its-web
