@@ -82,8 +82,8 @@ jobs:
           echo "  User ${{ vars.WEB_USER }}" >> ~/.ssh/config
           echo "  IdentityFile ~/.ssh/web_private_key" >> ~/.ssh/config
           echo "  ProxyJump ssh-server" >> ~/.ssh/config
-          ssh-keyscan -H ${{ vars.SSH_HOST }} >> ~/.ssh/known_hosts
-          ssh-keyscan -H ${{ vars.WEB_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -H ssh-server >> ~/.ssh/known_hosts
+          ssh-keyscan -H web-server >> ~/.ssh/known_hosts
           chmod 600 ~/.ssh/known_hosts
       - name: Download artifact
         uses: actions/download-artifact@v2
