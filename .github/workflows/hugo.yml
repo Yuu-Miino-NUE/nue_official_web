@@ -76,6 +76,7 @@ jobs:
           echo "  HostName ${{ vars.SSH_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.SSH_USER }}" >> ~/.ssh/config
           echo "  IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
+          echo "  DynamicForward 10080" >> ~/.ssh/config
           echo "Host web-server" >> ~/.ssh/config
           echo "  HostName ${{ vars.WEB_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.WEB_USER }}" >> ~/.ssh/config
