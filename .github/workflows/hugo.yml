@@ -91,7 +91,5 @@ jobs:
         with:
           name: public
           path: ./public
-      - name: Install rsync
-        run: sudo apt-get install -y rsync
       - name: Deploy to web-server
-        run: rsync -avz --delete ./public/ web-server:/var/www/nue-its-web
+        run: rsync -avze "ssh" --delete ./public/ web-server:/var/www/nue-its-web
