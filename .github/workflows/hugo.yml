@@ -71,6 +71,7 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/ssh_private_key
           echo "${{ secrets.WEB_PRIVATE_KEY }}" > ~/.ssh/web_private_key
+          chmod 600 ~/.ssh/*_private_key
           echo "Host ssh-server" >> ~/.ssh/config
           echo "  HostName ${{ vars.SSH_HOST }}" >> ~/.ssh/config
           echo "  User ${{ vars.SSH_USER }}" >> ~/.ssh/config
