@@ -1,5 +1,4 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy Hugo site to nue-its-web
 
 on:
   # Runs on pushes targeting the default branch
@@ -30,6 +29,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: "deploy to nue-its-web"
     env:
       HUGO_VERSION: 0.120.4
     steps:
@@ -54,20 +54,43 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ vars.BASE_URL }}/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
+          name: public
           path: ./public
 
   # Deployment job
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    environment: "deploy to nue-its-web"
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/ssh_private_key
+          echo "${{ secrets.WEB_PRIVATE_KEY }}" > ~/.ssh/web_private_key
+          chmod 600 ~/.ssh/*_private_key
+          echo "Host ssh-server" >> ~/.ssh/config
+          echo "  HostName ${{ vars.SSH_HOST }}" >> ~/.ssh/config
+          echo "  User ${{ vars.SSH_USER }}" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/ssh_private_key" >> ~/.ssh/config
+          echo "  DynamicForward 10080" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+          echo "  UserKnownHostsFile NUL" >> ~/.ssh/config
+          echo "Host web-server" >> ~/.ssh/config
+          echo "  HostName ${{ vars.WEB_HOST }}" >> ~/.ssh/config
+          echo "  User ${{ vars.WEB_USER }}" >> ~/.ssh/config
+          echo "  IdentityFile ~/.ssh/web_private_key" >> ~/.ssh/config
+          echo "  StrictHostKeyChecking no" >> ~/.ssh/config
+          echo "  UserKnownHostsFile NUL" >> ~/.ssh/config
+          echo "  ProxyJump ssh-server" >> ~/.ssh/config
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: ./public
+      - name: Deploy to web-server
+        run: rsync -avze "ssh" --delete ./public/ web-server:/var/www/nue-its-web
