@@ -135,5 +135,5 @@ Microsoft 365の「設定」メニューの「パスワード」からは変更�
 - 短期留学生
 - 嘱託講師 など
 
-[無線LANゲストID申請書](https://forms.office.com/r/D3NGLPVQAz)  
+[無線LANゲストIDオンライン申請](https://forms.office.com/r/D3NGLPVQAz)  
  日数に余裕を持って申請してください。
