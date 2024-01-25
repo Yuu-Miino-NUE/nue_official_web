@@ -38,7 +38,7 @@ weight: 20
  初期値をお渡ししますが，変更することができます。  
  パスワードの変更は以下のページから行ってください。  
 
-##### [パスワード変更　Unicorn ID Manager（ユニコーン）](https://www.naruto-u.ac.jp/unicornidm/user/naruto/password)
+##### [パスワード変更](https://idm.naruto-u.ac.jp/passweb/passwd.jsp)
 
 Microsoft 365の「設定」メニューの「パスワード」からは変更しないで下さい。  
 
