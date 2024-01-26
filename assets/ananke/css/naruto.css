@@ -92,6 +92,14 @@ table {
     white-space: nowrap;
 }
 
+.hd-biblio {
+    color: white;
+    background-color: indigo;
+    width: 60pt;
+    padding: 1pt;
+    white-space: nowrap;
+}
+
 .page-pannel li {
     padding: 0px;
     border-bottom: .5pt solid gray;
@@ -185,4 +193,9 @@ table {
 .forDetail a:hover {
     color: white;
     background-color: #0079f3;
+}
+
+.journal-table {
+    border-collapse:separate;
+    border-spacing: 1em 1.25em;
 }
