@@ -18,7 +18,7 @@ author: "Yuu Miino"
 # 概要
 別件で制作した Javascript アプリを Hugo Web サイト上に設置できるだろうと思い至り，設置してみました．
 
-実際に作ったページは [コチラ]({{<ref "json_timetable.html">}})
+実際に作ったページは [コチラ]({{ relref . "../tools/json_timetable.html" }})
 
 # やったこと
 ## JS ファイル，CSS ファイルの配置

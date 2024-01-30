@@ -9,5 +9,3 @@
 {{ range .Params.custom_js }}
 <script src="{{ . | relURL }}"></script>
 {{ end }}
-
-<base href="{{ .Site.BaseURL }}">
