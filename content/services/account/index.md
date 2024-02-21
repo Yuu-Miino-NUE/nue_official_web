@@ -38,7 +38,7 @@ weight: 20
  初期値をお渡ししますが，変更することができます。  
  パスワードの変更は以下のページから行ってください。  
 
-##### [パスワード変更　Unicorn ID Manager（ユニコーン）](https://www.naruto-u.ac.jp/unicornidm/user/naruto/password)
+##### [パスワード変更](https://idm.naruto-u.ac.jp/passweb/passwd.jsp)
 
 Microsoft 365の「設定」メニューの「パスワード」からは変更しないで下さい。  
 
@@ -60,7 +60,7 @@ Microsoft 365の「設定」メニューの「パスワード」からは変更�
 > ##### 【パスワードを忘れてしまった場合】
 > パスワードの再発行を申請してください。  
  セキュリティ上，管理者も確認することができません。  
- [パスワード再発行申請書](pdfs/passwordRE_f.pdf)   
+ [パスワード再発行申請書](passwordRE_f.pdf)   
  パスワード発行には日数がかかりますのでご了承ください。  
 
 ### ユーザID通知書

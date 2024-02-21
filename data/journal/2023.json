@@ -1,0 +1,142 @@
+[
+    {
+        "title": "オンライン授業における白黒反転資料の利用状況：平均閲覧回数と利用率",
+        "authors": ["高原 光恵"],
+        "pages": [
+            1,
+            6
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20001.pdf"
+    },
+    {
+        "title": "高校生の学習についての意識調査に基づく国語科授業研究",
+        "authors": ["橋本 夏代", "皆川 直凡"],
+        "pages": [
+            7,
+            16
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20002.pdf"
+    },
+    {
+        "title": "小学校クラブ活動における協働学習を取り入れたくじプログラミング学習活動の工夫",
+        "authors": ["岡 朋哉", "阪東 哲也"],
+        "pages": [
+            17,
+            22
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20003.pdf"
+    },
+    {
+        "title": "高等学校情報科「情報Ⅰ」における情報デザインを考慮したWeb地図コンテンツ制作教材の開発と授業実践",
+        "authors": ["渡邉 拓斗", "佐々木 雄太", "伊藤 陽介"],
+        "pages": [
+            23,
+            28
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20004.pdf"
+    },
+    {
+        "title": "小型FPGAを用いた情報回路による計測・制御実習教材の開発",
+        "authors": ["伊藤 陽介"],
+        "pages": [
+            29,
+            36
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20005.pdf"
+    },
+    {
+        "title": "小学校プログラミング教育の推進—授業実践と校内研修を通して—",
+        "authors": ["北濱 亮"],
+        "pages": [
+            37,
+            42
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20006.pdf"
+    },
+    {
+        "title": "インターネットを活用した幼児教育・保育におけるカリキュラムデザイン",
+        "authors": ["勝見 慶子", "田村 隆宏"],
+        "pages": [
+            43,
+            46
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20007.pdf"
+    },
+    {
+        "title": "Microsoft Power Apps による学習成果物管理アプリケーションの開発",
+        "authors": ["高下 瑛吉", "美井野 優", "阪東 哲也"],
+        "pages": [
+            47,
+            52
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20008.pdf"
+    },
+    {
+        "title": "中学生を対象とした暗号化と認証の仕組みを理解するための電子商取引でのカード決済体験型教材の開発",
+        "authors": ["西脇 勇斗", "阪東 哲也"],
+        "pages": [
+            53,
+            58
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20009.pdf"
+    },
+    {
+        "title": "ICT機器を活用し改善を促す防災教育をテーマとしたSTEAM教育ワークショップの提案",
+        "authors": ["宮本 裕貴", "谷村 千絵", "西脇 勇斗", "阪東 哲也"],
+        "pages": [
+            59,
+            66
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20010.pdf"
+    },
+    {
+        "title": "教員と大学図書館員が連携するスカベンジャーハントを取り入れた初年次情報リテラシー教育",
+        "authors": ["阪東 哲也", "佐藤 孝之", "山本 豪"],
+        "pages": [
+            67,
+            72
+        ],
+        "paper_type": "研究論文",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20011.pdf"
+    },
+    {
+        "title": "ICTを活用した重度・重複障害生徒のベッドサイド学習における一疑似体験学習",
+        "authors": ["藤本 聡実", "井上 とも子"],
+        "pages": [
+            73,
+            80
+        ],
+        "paper_type": "実践報告",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20012.pdf"
+    },
+    {
+        "title": "全附連養護教諭部会第57回研究協議会並びに総会ハイブリッド配信について",
+        "authors": ["曽根 直人", "前原 徳", "青木 小百合", "中本 有美", "久米 真里", "髙木 澄子", "山口 明日香"],
+        "pages": [
+            81,
+            84
+        ],
+        "paper_type": "実践報告",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20013.pdf"
+    },
+    {
+        "title": "情報基盤センター活動報告",
+        "pages": [
+            85,
+            94
+        ],
+        "authors": [],
+        "paper_type": "活動報告",
+        "url": "https://www.naruto-u.ac.jp/journal/info-edu/j20014.pdf"
+    }
+]

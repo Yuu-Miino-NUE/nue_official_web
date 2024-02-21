@@ -54,6 +54,9 @@ other = "重要"
 [incidentHeading]
 other = "障害"
 
+[biblioHeading]
+other = "文献情報"
+
 [topNews]
 other = "新着情報"
 
