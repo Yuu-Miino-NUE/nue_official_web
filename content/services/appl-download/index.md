@@ -19,8 +19,8 @@ weight: 10
 毎年付与される印刷ポイントが足りなくなったときに1000ポイント単位で追加購入できます。
 押印した申請書を，窓口まで持参してください。その後，財務課でお支払いいただくこととなります。
 
-[![](img/download-icon-y.png)利用者負担申請書](./apply/point_tsuika_riyosya_f.pdf)  
-[![](img/download-icon-y.png)コース負担申請書](./apply/point_tsuika_course_f.pdf)
+[![](img/download-icon-y.png)利用者負担申請書](point_tsuika_riyosya_f.pdf)  
+[![](img/download-icon-y.png)コース負担申請書](point_tsuika_course_f.pdf)
 ### 可搬型端末使用
 可搬型端末を貸し出しています。
 Microsoft Surface または、Chromebook を、1日単位でレンタルできます。
@@ -38,7 +38,7 @@ Microsoft Surface または、Chromebook を、1日単位でレンタルでき�
 経費は，コース等の配分経費からの振替となります。
 経費振替の関係から，学生または学生団体が利用する場合も教員からの申請が必要です。
 
-[![](img/download-icon-y.png)申請書(PDF)](./apply/printer_f.pdf)
+[![](img/download-icon-y.png)申請書(PDF)](printer_f.pdf)
 
 ### ユーザID
 ユーザIDを追加したり，ゲスト用のIDを作成できます。
