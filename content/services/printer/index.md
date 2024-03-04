@@ -30,12 +30,12 @@ weight: 60
  表示された印刷ジョブから，選択して印刷します。
  
   複合機の操作方法に関しましては，下記操作マニュアルをご参照下さい。  
-  [複合機 操作簡易マニュアル(暫定版)](./attached/IOGateV3_MPF_Manuall_ja.pdf)
+  [複合機 操作簡易マニュアル(暫定版)](IOGateV3_MPF_Manual_ja.pdf)
 ![](./img/icon-exclamation.png) 複合機にUSBメモリを直接接続して印刷する機能はありません。パソコンにUSBメモリを接続し，印刷して下さい。
  
 ##### 【How to print from PCs in the PC room with MFP】
   Please check the operation manual below.  
-  [MFP simple operation manual (tentative name)](./attached/IOGateV3_MPF_Manuall_en.pdf)
+  [MFP simple operation manual (tentative name)](IOGateV3_MPF_Manuall_en.pdf)
 #### 【印刷ポイントについて】
  印刷は，各ユーザごとに付与されるポイントを利用して行います。  
  年度毎に設定するポイントで換算される制限枚数までは，課金を必要とせずに利用できます。  
@@ -44,8 +44,8 @@ weight: 60
  年度初めに一人あたり1200ポイントが付与されます。  
  ポイントがなくなった場合には，教育研究のための利用に限り，1000ポイント単位での追加購入もできます。  
  情報基盤センター利用支援室へご相談ください。  
- [プリンタ印刷利用ポイント追加申請書（利用者負担）](./apply/point_tsuika_riyosya_f.pdf)   
- [プリンタ印刷利用ポイント追加申請書（コース等経費負担）](./apply/point_tsuika_course_f.pdf)
+ [プリンタ印刷利用ポイント追加申請書（利用者負担）](point_tsuika_riyosya_f.pdf)   
+ [プリンタ印刷利用ポイント追加申請書（コース等経費負担）](point_tsuika_course_f.pdf)
  利用ポイント数／付与ポイント数 は，複合機の操作パネルで確認できます。  
 ![](./img/icon-exclamation.png) 白黒／カラーの設定は，パソコン側のプリンタのプロパティにて設定して下さい。オンデマンド端末よりの切換はできなくなりました。
  
@@ -87,7 +87,7 @@ weight: 60
   
 #### 大判プリンタ利用方法：
  情報基盤センター利用支援室で，予約してください。  
- [大判プリンタ利用申請書](./apply/printer_f.pdf)   
+ [大判プリンタ利用申請書](printer_f.pdf)   
  学生または学生団体の方は，指導教員またはコース長・専攻長等に事前に許可をもらってください。  
  印刷には時間がかかりますので，スケジュールに余裕を持ってお越し下さい。
  
