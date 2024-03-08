@@ -14,13 +14,7 @@ weight: 70
  Campus Mapは [こちら](//www.naruto-u.ac.jp/campusmap.html) から
  
 令和5年3月1日 芸術棟特殊端末室Ａ・Ｂ および 健康棟特殊端末室 のサービスは終了いたしました。
-このページの内容 ![](./img/icon-arrow-down-blue.gif)
-* [端末室の利用](#use)
-* [端末室の予約](#reserve)
-* [Windows端末について](#windows)
-* [データ保存領域](#data-folder)
-* [スキャナの利用](#scanner)
-* [プロジェクター・電子黒板の利用](#projector)
+
 ### 端末室の利用
 端末室への入室には，職員証・学生証が必要です。
   
@@ -73,7 +67,7 @@ weight: 70
  
  予約状況カレンダーについて を閉じる ![](./img/icon-arrow-up-blue.gif)
 下記利用申請ページからオンライン申請が可能です。  
-[サービス利用申請](./appl-download.html)
+[サービス利用申請](https://forms.office.com/r/zPdcbcB84a)
  
 ### Windows端末の利用方法
  端末室および附属図書館のWindows端末は，ユーザIDでログオンして利用することができます。  
@@ -117,7 +111,7 @@ weight: 70
  カラーモード：フルカラー, グレースケール, 白黒  
  ファイル形式： PDF, TIFF, JPG
  
- スキャナ横の [マニュアル](./attached/scanner-manual.pdf) をご覧ください。
+ スキャナ横の [マニュアル](IOGateV3_MPF_Manuall_日本語.pdf) をご覧ください。
  
  端末室にある複合機でもスキャン読み取り可能です。
  

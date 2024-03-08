@@ -10,14 +10,7 @@ weight: 40
  ・ご自分の機器を無線LAN接続して
  
 端末室や図書館のPCの利用については [こちら](./pc-room.html#use) をご覧ください。
-このページの内容 ![](./img/icon-arrow-down-blue.gif)
-* [利用時の設定](#settings)
-* [情報コンセントへの接続(有線)](#connect-lan)
-* [無線LANアクセスポイントの設置について](#wireless-ap)
-* [学内無線LANへの接続](#wireless-lan)
-* [固定IPアドレスについて](#ip-address)
-* [NTPサーバについて](#ntp)
-* [不審な通信の検知について](#detection)
+
 ### 利用時の設定
 #### IPアドレスについて
  IPアドレスは自動取得するように設定してください。  

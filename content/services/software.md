@@ -8,13 +8,7 @@ weight: 50
  契約の形態はソフトウェアごとに異なっていますので，それぞれのソフトウェアについての利用案内をご覧ください。  
  また，契約の更新に伴い，利用要項が変更されることがありますので，ご了承ください。
  
-このページの内容 ![](./img/icon-arrow-down-blue.gif)
-* [端末室導入ソフトウェア](#software-list)
-* [Microsoft Office 365 アプリ](#microsoft-365)
-* [Microsoft Office デスクトップ](#microsoft-office)
-* [Windows OS アップグレード](#windows-update)
-* [Justsystem Just Office](#just-office)
-* [IBM SPSS](#ibm-spss)
+
 ### 端末室で利用できるソフトウェア
  端末室のPCへイントールしているソフトウェアです。  
 [端末室導入 ソフトウェア一覧](./attached/pcroom-SoftwareList.pdf)
