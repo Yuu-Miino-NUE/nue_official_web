@@ -4,11 +4,7 @@ toc: true
 weight: 60
 ---
 
-このページの内容 ![](./img/icon-arrow-down-blue.gif)
-* [端末室複合機](#printer)
-* [大判プリンタ](#large-printer)
-* [レーザーカッター](#laser-cutter)
-* [3Dプリンタ](#3d-printer)
+
 ### 端末室複合機について
  次の端末室および附属図書館に設置しています。  
  ・人文棟特殊端末室   
