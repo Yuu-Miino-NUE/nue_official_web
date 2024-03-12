@@ -9,32 +9,32 @@ weight: 90
 利用可能なサービスは，以下のとおりです。
 * #### [CiNii（NII学術情報ナビゲータ[サイニィ]）](https://ci.nii.ac.jp/)
 論文や図書・雑誌などの学術情報で検索できるデータベース・サービスです。
-[GakuNinからのログイン手順](./attached/CiNii_Login.pdf)
+[GakuNinからのログイン手順](CiNii_Login.pdf)
 * #### [NII FileSender (ファイル共有サービス)](https://filesender.nii.ac.jp/)
 学術認証フェデレーションが提供する認証連携の仕組みを利用した大容量ファイル転送サービスです。  
  ※従来のFShareとは一部機能が異なっております。
 [NII FileSenderについて](https://meatwiki.nii.ac.jp/confluence/pages/viewpage.action?pageId=21448920)
-[GakuNinからのログイン手順](./attached/nii_filesender.pdf)
+[GakuNinからのログイン手順](nii_filesender.pdf)
 * #### [EBSCO host（エブスコ）](http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s6921876&group=main&profid=ehost&defaultdb=aph,ehh,pbh,psyh,pdh,msn,eric,lxh,cmedm)
 学術雑誌論文を中心とした学術情報の全文，または文献データを検索できるオンライン・データベースです。
 ※ログイン手順が変更になりました(2021/6/23）  
  学内から接続した場合，そのまま利用できます。  
  学外から接続した場合，学認ログインが必要です。 
-[GakuNinからのログイン手順](./attached/EBSCO_Login.pdf)
+[GakuNinからのログイン手順](EBSCO_Login.pdf)
 * #### [SpringerLink（シュプリンガー）](https://link.springer.com/)
 Springer(シュプリンガー)の全学術コンテンツ(電子ジャーナル電子ブック電子レファレンスブックス電子アーカイブLecture Notes)を横断検索できるプラットフォームです。
-[GakuNinからのログイン手順](./attached/SpringerLink_Login.pdf)
+[GakuNinからのログイン手順](SpringerLink_Login.pdf)
 * #### [KinoDen 紀伊國屋書店 学術電子図書館](https://kinoden.kinokuniya.co.jp/naruto/)
 紀伊國屋書店が提供する，電子書籍プラットフォームですす。
-[GakuNinからのログイン手順](./attached/KinoDen.pdf)
+[GakuNinからのログイン手順](KinoDen.pdf)
 * #### [Maruzen eBook Library](https://elib.maruzen.co.jp/)
 丸善が提供する，学術書籍に特化した電子書籍配信サービスです。
-[GakuNinからのログイン手順](./attached/Maruzen_Login.pdf)
+[GakuNinからのログイン手順](Maruzen_Login.pdf)
  
 ### eduroam [エデュローム]
 * #### [eduroam（Educational Roaming[エデュローム]）](https://www.eduroam.jp/about/)
 大学等教育研究機関の間でキャンパス無線LANの相互利用を実現する， 国立情報学研究所(NII)のサービスです。
-[1.本学の教職員・学生が外部の組織でeduroamを利用する場合](./attached/eduroam-gakunai.pdf)
+[1.本学の教職員・学生が外部の組織でeduroamを利用する場合](eduroam-gakunai.pdf)
 2.外部のeduroam参加組織の教職員・学生が本学の無線LANを使用する場合  
  　※現在実験運用中です。学会などでご利用を希望される場合は，情報基盤センターまでご相談ください。
  
@@ -64,6 +64,6 @@ Springer(シュプリンガー)の全学術コンテンツ(電子ジャーナル
  電子ジャーナル, データベースの利用について  
 [附属図書館までお問い合わせ下さい。](//www.naruto-u.ac.jp/library/inquiry.html)
  学認 および eduroam, NII FileSender について  
-[情報基盤センターまでお問い合わせ下さい。](//www.naruto-u.ac.jp/center/it/contact.html)
+[情報基盤センターまでお問い合わせ下さい。](https://www.naruto-u.ac.jp/center/it/)
  
 
