@@ -34,18 +34,15 @@ Exchangeプロトコル，または OAuth2.0認証 での利用をお願いい�
 Microsoft 365 の Outlookは，Webブラウザからアクセスする Webメールです。
 Outlookの利用方法 を読む
 Microsoft 365にサインインして，Outlookアプリを利用します。
-![[1].](./img/number3_41.gif) Webブラウザを起動し，アドレスバーに下記のURLを入力して接続します。  
-【URL】  
-<https://portal.office.com/>
-★Webブラウザは，最新版をご利用ください。  
-![[1].](./img/number3_42.gif) サインインします。
- サインインには，Microsoft 365アカウント（ユーザID@naruto-u.ac.jp），パスワードを使用します。
- ★メールアドレス@naruto-u.ac.jp'ではありません。
-![Sign in](./img/office365_signin.jpg) 
- ★初回起動時のみタイムゾーン設定画面が表示されますので、「大阪、札幌、東京」(Osaka, Sapporo, Tokyo) を選んでください。  
-![[1].](./img/number3_43.gif) Outlookアプリを起動します。
- ![Top menu](./img/office365_top.jpg)
-詳細は [Office 365 サインイン](./attached/Office365ログイン.pdf) をご覧ください。
+1. Webブラウザを起動し，アドレスバーに下記のURLを入力して接続します。  
+【URL】<https://portal.office.com/>  
+ > Webブラウザは，最新版をご利用ください。
+2. サインインします。  
+ サインインには，Microsoft 365アカウント（ユーザID@naruto-u.ac.jp），パスワードを使用します。  
+ > `メールアドレス@naruto-u.ac.jp'ではありません。  
+ > 初回起動時のみタイムゾーン設定画面が表示されますので、「大阪、札幌、東京」(Osaka, Sapporo, Tokyo) を選んでください。
+3. Outlookアプリを起動します。  
+ 詳細は [Office 365 サインイン](./attached/Office365ログイン.pdf) をご覧ください。
 ####  注意事項
 以下の場合，メールが一時的に利用できなくなることがあります。
 * 1時間当たり3600通を超える受信メール
