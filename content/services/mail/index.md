@@ -7,7 +7,7 @@ weight: 30
 #### アカウント（ユーザ名）
 ユーザID@naruto-u.ac.jp（Microsoft 365のアカウント）です。
 入学時に発行する「ユーザID通知書」に記載されています。
-![](./img/icon-exclamation.png)ご注意 [Microsoft 365]のアカウントは［Microsoftアカウント］とは異なります。
+> ご注意 [Microsoft 365]のアカウントは［Microsoftアカウント］とは異なります。
 #### パスワード
  初期値は，入学時に発行する「ユーザID通知書」に記載されています。
  必ず変更して下さい。→ [こちら]({{< ref "account#パスワード" >}})　
@@ -19,57 +19,17 @@ weight: 30
 卒業，修了，退職後は，メールシステムにもアクセスできなくなります。
 必要なデータは移行してください。
 ### 多要素認証（MFA）の設定
-#### Microsoft 365 多要素認証（MFA）の設定
-Microsoft365のセキュリティを強化するため，不正ログイン対策として，学外からログインする場合に多要素認証を適用します。
-次のマニュアルを参照し，いずれかの方法で初期設定をお願いします。
-##### ■Microsoft365 多要素認証の導入について（初期設定マニュアル）
-次のマニュアルを参照し，いずれかの方法で初期設定をお願いします。  
-学外からログインする場合，初期設定を行った認証方法（スマートフォン・電話・パソコン）での承認が必要となりますので，ご注意ください。（例：学外から大学のOutlookやTeamsを使用する場合）
+[こちら](../mfa) を参考に設定してください．  
+(For foreign users, please refer to [the manual in English]({{< ref "20220817" >}}).)
 
-1. [多要素認証マニュアル アプリ(PC・モバイル)](PCmobile_2023mfa.pdf)
-2. [多要素認証マニュアル アプリ(電話認証)](Tel_2023mfa.pdf)（固定電話／携帯電話）【推奨】
-3. [多要素認証マニュアル アプリ(パソコン認証)](PC_2023mfa.pdf)
-* ![](./img/icon-exclamation.png)注意事項
-* Windows PCをお使いの場合，Edge以外のブラウザでは正常に設定作業が行えない場合があります。
-* ①QRコードをスキャンする場合，スマートフォン付属のQRコードリーダーは使用いたしません。
-* ①②スマートフォンは学内無線LAN（INDIGO）ではなく，携帯電話回線に接続して設定を行って下さい。
-* ③大学の電話番号を登録しないようにしてください。携帯電話を推奨いたします。
-* ④大学のパソコンで登録した場合，ノートパソコンなど他のパソコンを使用する場合は追加登録が必要となります。  
-Mac OS Xの場合，ChromeブラウザとChrome用拡張機能  [Authenticator](https://authenticator.cc/) を使用します。
-##### ■設定の確認および認証方法の追加手順
-[portal.office.com](https://portal.office.com)よりMicrosoft365にログインします。
-ホーム画面の右上の人型アイコンより　「アカウントを表示」を選びます。
-「セキュリティ情報」＞更新情報　で現在のサインイン方法が表示され、変更・削除が可能です（例：電話番号の変更）
-＋サインイン方法の追加　よりサインイン方法の追加が可能です（例：代替電話の登録，予備のスマートフォンの登録）
-![](./img/icon-exclamation.png)メールソフトで，IMAPプロトコルを設定している場合は，ご利用できなくなっております。
+
+> メールソフトで，IMAPプロトコルを設定している場合は，ご利用できなくなっております。
 Microsoft365の多要素認証は，IMAPなど基本認証に対応しておりません。Microsoft365の，IMAPプロトコルによる認証は2022年10月1日に廃止されました。
 Exchangeプロトコル，または OAuth2.0認証 での利用をお願いいたします。
 [メールソフトの設定](#メールソフトの設定)
-![](./img/icon-exclamation.png)メールソフトで，アプリケーションパスワードを設定している場合も，多要素認証への移行となります。
+> メールソフトで，アプリケーションパスワードを設定している場合も，多要素認証への移行となります。
 上記のとおり，Exchangeプロトコル，または OAuth2.0認証 での利用をお願いいたします。  
-#### To Setup Microsoft 365, multi-factor authentication (MFA)
-To enhance the security of Microsoft 365, multi-factor authentication (MFA) will be applied when logging in from outside the university as a countermeasure against unauthorized logins.  
-Please refer to the following manual and use one of the following methods to set up the initial settings.
-##### Introduction of Microsoft 365 Multi-Factor Authentication (Initial Setup Manual)
-To enhance the security of Microsoft 365, multi-factor authentication (MFA) will be applied when logging in from outside the university as a countermeasure against unauthorized logins.  
-Please refer to the following manual and use one of the following methods to set up the initial settings.
-Please note that when logging in from off-campus, you must be authorized by the authentication method (smartphone, landline phone, or computer) that you have initially set up. (e.g., when using Outlook or Teams on our University account from off-campus)
-* [(1) Multi-Factor Authentication Manual App (PC / Mobile)](PCmobile_English_2023.pdf)
-* [(2) Multi-Factor Authentication Manual App (Phone Authentication)](Tel_English_2023.pdf) (Landline/Mobile Phone) 【recommended】
-* [(3)Multi-Factor Authentication Manual App (PC Authentication)](./mfa/MFA3-PC_and_Telephone_English.pdf)
 
-![](./img/icon-exclamation.png)NOTE:  
-If you are using Windows PC, you may not be able to set up correctly with browsers except Edge.  
-(1) When scanning QR codes, the QR code reader that comes with your smartphone will not be used.  
-(1), (2) Connect your mobile device to the mobile phone line, not the On-Campus wireless LAN (INDIGO), and set it up.  
-(3) Please do not register the phone number of the university. Your mobile phone number is recommended.  
-(4) If you have registered on our university's computer, you will need to register an additional computer if you wish to use another computer, such as your laptop.  
-For Mac OS X, use the Chrome browser and the Chrome extension  [Authenticator](https://authenticator.cc/).
-##### If you want to check / change your information after setting
-1. From the university Web page [portal.office.com](https://portal.office.com), connect to the university portal site and open the Microsoft Office home page.  
-2. Click Account Manager at the top right of the screen. and Click "View Account".  
-3. The My Account screen will be displayed. Click "Update Information" under Security Information.  
-4. The security information screen is displayed.You can check and change the setting information from here.
 ### Webメール ：Outlook の使い方
 Microsoft 365 の Outlookは，Webブラウザからアクセスする Webメールです。
 Outlookの利用方法 を読む
@@ -108,9 +68,9 @@ iPhone標準メールアプリやGmailアプリ（Android版）などがあり�
 * [Gmailアプリ Android (8.0)](GmailAndroid.pdf)  
 #### IMAPプロトコル利用
 ##### ご注意 Microsoft365の，IMAPプロトコルによる認証は2022年10月1日に廃止されました。
-![](./img/icon-exclamation.png)上記Exchangeプロトコルに対応したメールソフト もしくは OAuth2.0認証に対応したメールソフトをご利用下さい。  
+> 上記Exchangeプロトコルに対応したメールソフト もしくは OAuth2.0認証に対応したメールソフトをご利用下さい。  
 OAuth2.0認証に対応したメールソフト　Mozilla Thunderbird　78.0 以降，など  
-![](./img/icon-exclamation.png)ご注意 GmailのメールアプリはOAuth2.0に対応していません。
+> ご注意 GmailのメールアプリはOAuth2.0に対応していません。
 Thunderbirdの場合，「通常のパスワード認証」を「OAuth2」に変更して下さい。
 ##### ThunderbirdをOAuth2.0認証に設定する
 ユーザ名には，ユーザID@naruto-u.ac.jp を指定してください。  
