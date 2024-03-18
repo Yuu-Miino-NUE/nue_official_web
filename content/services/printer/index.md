@@ -117,7 +117,7 @@ weight: 60
  
 ##### 参考：
 [PowerPointでの大型ポスター作成の手引き](PowerPointでの大型ポスター作成の手引き.pdf)  
-[PowerPoint　A0テンプレート](./attached/PowerPoint_Template_A0.pptx)
+[PowerPoint　A0テンプレート](PowerPoint_Template_A0.pptx)
 ##### 印刷料金：
  ご利用の経費は，コース等の配分経費から差し引かせていただきます。
  
@@ -155,9 +155,9 @@ weight: 60
  各種CAD  
  など  
 ##### 参考：
-[レーザーカッター作業の流れ](./attached/laser2.pdf)  
-[レーザーカッター加工データ作成の手引き](./attached/laser1.pdf)  
-[レーザーカッター実寸テンプレート（Illustratorの形式）](./attached/rayjettemplate1.ai)
+[レーザーカッター作業の流れ](laser2.pdf)  
+[レーザーカッター加工データ作成の手引き](laser1.pdf)  
+[レーザーカッター実寸テンプレート（Illustratorの形式）](rayjettemplate1.ai)
   
 #### ３Ｄプリンタ利用方法：
  情報基盤センター利用支援室で，ご希望の日時を予約してください。  
