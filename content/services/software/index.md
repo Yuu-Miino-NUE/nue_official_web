@@ -40,8 +40,8 @@ weight: 50
  　1ユーザあたり5台まで
  　   
  ☆個人で購入したパソコン等にもインストールできます。  
-![](./img/icon-exclamation.png)卒業・修了／退学・退職時には利用する権利がなくなります。  
-![](./img/icon-exclamation.png)Microsoft社の"Office 365 Education"サイトからはインストールできません。  
+> 卒業・修了／退学・退職時には利用する権利がなくなります。  
+> Microsoft社の"Office 365 Education"サイトからはインストールできません。  
 ##### 院生室など共有のPCの場合は・・・
  管理している教員よりソフトウェア利用申請をして， [Officeデスクトップ版](#MicrosoftOfficeデスクトップ版) をご利用ください。  
  院生室・研究室など，複数人で共有して使用するPCの場合，学生・教員のアカウント(ユーザID@naruto-u.ac.jp)を使ってインストールすると，アカウント情報のセキュリティが守られません。
@@ -54,11 +54,11 @@ weight: 50
  個人のPCには上記 Office365 (Microsoft 365）アプリ版をご利用ください。  
 
 ##### 【インストールするパソコンの仕様など】
-![](./img/icon-exclamation.png) Windows 10 / 11   
-![](./img/icon-exclamation.png) macOS の最新の 3 つのバージョン  
+>  Windows 10 / 11   
+>  macOS の最新の 3 つのバージョン  
  　 
     
-![](./img/icon-exclamation.png)Windows 10 / 11 Sモード の場合は，Windows 10 / 11 Home または Proに切り替え（解除）してください。    
+> Windows 10 / 11 Sモード の場合は，Windows 10 / 11 Home または Proに切り替え（解除）してください。    
  　
 
 #### 利用方法
@@ -77,7 +77,7 @@ weight: 50
  教職員，学生は，Microsoft Windowsをアップグレードできます。  
  Windows OSのライセンスが必要です。（新規インストールはできません）
  
-![](./img/icon-exclamation.png)アップグレードするパソコンの仕様が各OSの要件を満たしているかどうかご確認ください。  
+> アップグレードするパソコンの仕様が各OSの要件を満たしているかどうかご確認ください。  
 
 ##### 利用方法
  
@@ -89,7 +89,7 @@ weight: 50
    
 #### Justsystem　Just Office
  本学に在籍する教職員は，本学に在籍中，Just Office をインストールして利用できます。  
-![](./img/icon-exclamation.png)学生は対象外です。
+> 学生は対象外です。
 
 ##### インストール可能な製品
  Just Office  
@@ -101,7 +101,7 @@ weight: 50
  インストール用USBメモリをお渡しします。  
 [サービス利用申請](https://forms.office.com/r/2xbjqYZkpD)
 
-![](./img/icon-exclamation.png)離席後は利用する権利がなくなります。アンインストールしてください。
+> 離席後は利用する権利がなくなります。アンインストールしてください。
  
  
 #### IBM 統計解析ソフト SPSS
@@ -109,8 +109,8 @@ weight: 50
  申請の必要はありません。  
 ##### 手順
  情報基盤センター Knowledge  [#143 IBM SPSS ソフトを自分のパソコンにインストールしたい](https://www.naruto-u.ac.jp/center/it/knowledge/open.knowledge/view/143) をご覧ください。  
-![](./img/icon-exclamation.png)利用できるのは学内ネットワーク接続時のみです。  
-![](./img/icon-exclamation.png)同時起動数が25を超えると26台目からは利用できなくなります。  
+> 利用できるのは学内ネットワーク接続時のみです。  
+> 同時起動数が25を超えると26台目からは利用できなくなります。  
  
  
 
