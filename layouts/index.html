@@ -1,4 +1,11 @@
 {{ define "main" }}
+  {{ $hot_sections := where .Site.RegularPages "Params.hot_topic" "==" true }}
+  {{ $hot_sections_count := len $hot_sections }}
+  {{ if ge $hot_sections_count 1 }}
+    {{ with $hot_sections.ByDate.Reverse }}
+      {{- partial "partials/hot-topic.html" . -}}
+    {{ end }}
+  {{ end }}
   {{/* Create a variable with that section to use in multiple places. */}}
   {{ $section := where .Site.RegularPages "Params.heading" "!=" nil }}
   {{/* Check to see if the section is defined for ranging through it */}}
