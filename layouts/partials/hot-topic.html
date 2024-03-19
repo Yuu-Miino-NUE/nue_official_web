@@ -1,0 +1,19 @@
+{{ range . }}
+<article class="w-70-l flex-l flex-wrap justify-center mw9 center ph3 pt5">
+    <section class="w-100 center">
+    <div class="relative w-100 pb2 bg-white nested-copy-line-height">
+        <div class="pa4 pv3 gray overflow-hidden">
+        <h1 class="f3 red">
+            {{ .Params.hot_topic_title }}
+        </h1>
+        <div class="nested-links f5 lh-copy">
+            <p>{{ .Params.hot_topic_text }}</p>
+            <p><a href="{{ .RelPermalink }}" style="text-decoration: none">
+                {{ .Params.hot_topic_href_text }}
+            </a></p>
+        </div>
+        </div>
+    </div>
+    </section>
+</article>
+{{ end }}

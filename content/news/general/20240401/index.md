@@ -2,6 +2,10 @@
 title: 令和 6 年度新入生向け利用マニュアル
 date: 2024-03-18
 heading: important
+hot_topic: true
+hot_topic_title: "令和 6 年度 新入生の皆様へ"
+hot_topic_text: "新入生向けに大学情報基盤の利用マニュアルをご準備しています。"
+hot_topic_href_text: "こちらからご確認ください。"
 ---
 
 {{< pdfembed src="./R6_04_情報基盤センターから新入生へのお知らせ.pdf#view=fit" width="450" height="700" >}}
