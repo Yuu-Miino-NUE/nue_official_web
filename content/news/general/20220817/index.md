@@ -10,7 +10,7 @@ Please refer to the following manual and use one of the following methods to set
 Please note that when logging in from off-campus, you must be authorized by the authentication method (smartphone, landline phone, or computer) that you have initially set up. (e.g., when using Outlook or Teams on our University account from off-campus)
 
 ### Manual for MFA setup
-1. [Mobile Phone Number (SMS)](Tel_English_2023.pdf) (recommended)
+1. [Mobile Phone Number (SMS)](Tel_English_2023.pdf) 
 2. [PC / Mobile App](PCmobile_English_2023.pdf)
 3. [PC Authentication](PCEnglishver.pdf)
 
