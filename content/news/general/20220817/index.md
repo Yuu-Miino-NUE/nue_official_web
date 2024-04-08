@@ -12,7 +12,7 @@ Please note that when logging in from off-campus, you must be authorized by the 
 ### Manual for MFA setup
 1. [Mobile Phone Number (SMS)](Tel_English_2023.pdf) (recommended)
 2. [PC / Mobile App](PCmobile_English_2023.pdf)
-
+3. [PC Authentication](PCEnglishver.pdf)
 
 > NOTE:  
 > If you are using Windows PC, you may not be able to set up correctly with browsers except Edge.  

@@ -24,6 +24,9 @@ New students are requested to read the following manuals when using the universi
   [About setting up Microsoft365 multi-factor authentication]({{< ref "mfa" >}}) 
 
 - [令和6年度情報基盤センター利用認定試験](https://lms.naruto-u.ac.jp/course/view.php?id=29)   
-鳴門教育大学 Moodle にログインしてください。
+鳴門教育大学 Moodle にログインしてください。  
+[Utilization Certification Exam](https://lms.naruto-u.ac.jp/course/view.php?id=29)  
+Naruto University of Education Please log in to Moodle.  
+
 - [サイバーセキュリティ対策（外部リンク）](https://security-portal.nisc.go.jp/cybersecuritymonth/2024/)  
 →日頃から対策を心がけてください。

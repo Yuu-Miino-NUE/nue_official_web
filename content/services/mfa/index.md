@@ -37,7 +37,7 @@ Please note that when logging in from off-campus, you must be authorized by the 
 ### Manual for MFA setup
 1. [PC / Mobile App](PCmobile_English_2023.pdf) 
 2. [Mobile Phone Number (SMS)](Tel_English_2023.pdf)(recommended)
-3. [PC Authentication]()
+3. [PC Authentication](PCEnglishver.pdf)
 
 
 > NOTE:  
