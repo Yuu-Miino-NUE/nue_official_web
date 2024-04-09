@@ -21,7 +21,7 @@ New students are requested to read the following manuals when using the universi
   [About the settings of the purchased computer](SettingofanewlypurchasedPC.pdf)  
 
 - [Microsoft365 多要素認証の設定について]({{< ref "mfa" >}})  
-  [About setting up Microsoft365 multi-factor authentication]({{< ref "mfa" >}}) 
+  [About setting up Microsoft365 multi-factor authentication]({{< ref "20220817" >}}) 
 
 - [令和6年度情報基盤センター利用認定試験](https://lms.naruto-u.ac.jp/course/view.php?id=29)   
 鳴門教育大学 Moodle にログインしてください。  
