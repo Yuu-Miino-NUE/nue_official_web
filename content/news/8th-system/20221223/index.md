@@ -1,6 +1,6 @@
 ---
 title: "How to print from PCs in the PC room"
-date: "2022-12-23"
+date: "2024-05-01"
 heading: notice
 ---
 
