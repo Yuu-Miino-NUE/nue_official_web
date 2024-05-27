@@ -6,8 +6,8 @@
             1,
             6
         ],
-        "paper_type": "研究論文"
-        
+        "paper_type": "研究論文",
+        "url": "https://naruto.repo.nii.ac.jp/record/2000435/files/j21001.pdf"
     },
     {
         "title": "教育的配慮に基づくWebコンテンツ制作支援環境の開発",
@@ -16,7 +16,8 @@
             7,
             11
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000436/files/j21002.pdf"
         
     },
     {
@@ -26,7 +27,8 @@
             12,
             21
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000437/files/j21003.pdf"
         
     },
     {
@@ -36,7 +38,8 @@
             22,
             26
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000438/files/j21004.pdf"
        
     },
     {
@@ -46,7 +49,8 @@
             27,
             31
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000439/files/j21005.pdf"
         
     },
     {
@@ -56,7 +60,8 @@
             32,
             38
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000440/files/j21006.pdf"
         
     },
     {
@@ -66,7 +71,8 @@
             39,
             46
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000441/files/j21007.pdf"
        
     },
     {
@@ -76,7 +82,8 @@
             47,
             56
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000442/files/j21008.pdf"
         
     },
     {
@@ -86,7 +93,8 @@
             57,
             62
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000443/files/j21009.pdf"
         
     },
     {
@@ -96,7 +104,8 @@
             63,
             66
         ],
-        "paper_type": "研究論文"
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000444/files/j21010.pdf"
         
     },
     {
@@ -106,8 +115,19 @@
             67,
             74
         ],
-        "paper_type": "実践報告"
+        "paper_type": "実践報告",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000445/files/j21011.pdf"
         
+    },
+    {
+        "title": "情報基盤センター活動報告",
+        "pages": [
+            1,
+            11
+        ],
+        "authors": [],
+        "paper_type": "活動報告",
+        "url": "./center_report.pdf"
     }
    
 ]
