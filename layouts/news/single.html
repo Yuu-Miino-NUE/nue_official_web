@@ -14,7 +14,7 @@
           */}}
         {{with .CurrentSection.Title }}{{. | upper }}{{end}}
       </aside>
-      {{ partial "social-share.html" . }}
+      {{- partialCached "social/share.html" . . -}}
       <h1 class="f1 mt3 mb1">
         {{- .Title -}}
       </h1>
