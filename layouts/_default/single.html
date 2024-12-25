@@ -8,7 +8,7 @@
   <article class="flex-l flex-wrap justify-between mw9 center ph3">
     <div class="w-20-l mt4"></div>
     <header class="mt4 {{ if .Params.toc }}w-50-l{{ else }}w-70-l{{ end }}">
-      {{ partial "social-share.html" . }}
+      {{- partialCached "social/share.html" . . -}}
       <h1 class="f1 mt3 mb1">
         {{- .Title -}}
       </h1>
