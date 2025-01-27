@@ -72,7 +72,7 @@ Microsoft Surface または、Chromebook を、1日単位でレンタルでき�
 
 [![](img/request-icon-g.png)オンライン申請](https://forms.office.com/r/jfA428Fns5")
 
-### ＤＮＳのＡレコード登録
+### DNS の A レコード登録
 Domain Name System サーバへの A レコードの登録申請です。
 「naruto-u.ac.jp」ドメイン の A レコードに登録します。
 
