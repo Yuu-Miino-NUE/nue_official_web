@@ -1,0 +1,155 @@
+[
+    {
+        "title": "小学校における知性と感性を結ぶ俳句教育プログラム開発とその教育効果の検証の試み",
+        "authors": ["皆川 直凡"],
+        "pages": [
+            1,
+            9
+        ],
+        "paper_type": "研究論文",
+        "url": "https://naruto.repo.nii.ac.jp/record/2000435/files/j22001.pdf"
+    },
+    {
+        "title": "複式学級における効果的な授業方法についての一考察",
+        "authors": ["池永 翔太郎", "江川 克弘"],
+        "pages": [
+            11,
+            17
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000436/files/j22002.pdf"
+        
+    },
+    {
+        "title": "INTEGRATION OF TECHNOLOGY EDUCATION IN JUNIOR HIGH SCHOOLS: A CASE STUDY OF GHANA AND JAPAN",
+        "authors": ["OSUYAH EBENEZER", "BANDO TETSUYA"],
+        "pages": [
+            19,
+            25
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000437/files/j22003.pdf"
+        
+    },
+    {
+        "title": "ChatGPTを活用した文章生成力・計画立案力育成-高等学校福祉課程における「介護計画」作成の実践をもとに-",
+        "authors": ["中山 美知子", "黒田 麻衣子"],
+        "pages": [
+            27,
+            36
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000438/files/j22004.pdf"
+       
+    },
+    {
+        "title": "有史以前からの情報利用の歴史と情報遺産に関わる文献の分類 ",
+        "authors": ["菊地 章"],
+        "pages": [
+            37,
+            53
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000439/files/j22005.pdf"
+        
+    },
+    {
+        "title": "高等学校・情報科の教員意識調査に基づく情報デザイン教育の学習指導計画と教材例",
+        "authors": ["伊藤 陽介","佐々木 雄太"],
+        "pages": [
+            55,
+            61
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000440/files/j22006.pdf"
+        
+    },
+    {
+        "title": "Azureを利用した教育用Webコンテンツ作成支援Webアプリの開発",
+        "authors": ["佐々木 雄太","伊藤 陽介"],
+        "pages": [
+            63,
+            67
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000441/files/j22007.pdf"
+       
+    },
+    {
+        "title": "学生アスリート支援の充実に影響を与える大学組織変数の探索～決定木分析を用いて～ ",
+        "authors": ["石川 勝彦", "吉村 充功", "山本 啓一"],
+        "pages": [
+            69,
+            78
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000447/files/j22008.pdf"
+        
+    },
+    {
+        "title": "教育実習生の授業リフレクション支援に向けた感情データと授業映像データを統合した可視化システム活用方法の検討 ",
+        "authors": ["阪東 哲也"],
+        "pages": [
+            79,
+            86
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000443/files/j22009.pdf"
+        
+    },
+    {
+        "title": "スポーツ場面におけるウェアラブルデバイス活用の効果について",
+        "authors": ["大倉 海祐", "南 隆尚"],
+        "pages": [
+            87,
+            92
+        ],
+        "paper_type": "研究論文",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000444/files/j22010.pdf"
+        
+    },
+    {
+        "title": "高等学校数学科における動画と対面授業の融合を目指した反転授業の実践",
+        "authors": ["宮田 隆徳", "長井 映雄"],
+        "pages": [
+            93,
+            97
+        ],
+        "paper_type": "実践報告",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000445/files/jj22001.pdf"
+        
+    },
+    {
+        "title": "幼稚園の写真資料デジタルアーカイブの構築",
+        "authors": ["塩路 晶子", "曽根 直人", "谷村 千絵"],
+        "pages": [
+            99,
+           104
+        ],
+        "paper_type": "実践報告",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000445/files/jj22002.pdf"
+        
+    },
+    {
+        "title": "生成AIを活用した「ネットモラル」授業の実践と考察",
+        "authors": ["秋田 泰宏"],
+        "pages": [
+           105,
+           112
+        ],
+        "paper_type": "実践報告",
+        "url":"https://naruto.repo.nii.ac.jp/record/2000445/files/jj22003.pdf"
+        
+    },
+    {
+        "title": "情報基盤センター活動報告",
+        "pages": [
+            1,
+            11
+        ],
+        "authors": [],
+        "paper_type": "活動報告",
+        "url": "./center_report.pdf"
+    }
+   
+]
