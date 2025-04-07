@@ -12,7 +12,7 @@
         "url": "https://lc-nue.naruto-u.ac.jp/lcu-web/"
     },
     {
-        "title": "Moodle Orange(遠隔授業用lms)",
+        "title": "Moodle Orange(lms)",
         "url": "https://lms.naruto-u.ac.jp/"
     },
     {
@@ -22,25 +22,5 @@
     {
         "title": "鳴門教育大学ポータルサイト(教職員用)",
         "url": "https://narutouacjp.sharepoint.com/sites/portal/info/SitePages/ホーム.aspx"
-    },
-    {
-        "title": "Stream 情報基盤センターチャネル",
-        "url": "https://web.microsoftstream.com/channel/5309732f-247a-46cf-817b-f6fd9b2cf3a8"
-    },
-    {
-        "title": "利用マニュアル",
-        "url": "https://narutouacjp-my.sharepoint.com/:f:/g/personal/itc_naruto-u_ac_jp/EobOebQZQrZPifqnmF1y-fcBtyko7mM6oC1aSL1-eE6nAw?e=Eia02h"
-    },
-    {
-        "title": "利用講習会(Stream)",
-        "url": "https://web.microsoftstream.com/video/5d2066e5-4c03-41fa-af8e-e4b4d1f6db74?channelId=5309732f-247a-46cf-817b-f6fd9b2cf3a8"
-    },
-    {
-        "title": "令和5年度情報基盤センター利用認定試験 (2023 certification exam)",
-        "url": "https://lms.naruto-u.ac.jp/course/view.php?id=29"
-    },
-    {
-        "title": "よくある質問（FAQ）",
-        "url": "https://www.naruto-u.ac.jp/center/it/knowledge/"
     }
 ]
