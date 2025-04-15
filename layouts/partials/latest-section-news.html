@@ -10,7 +10,7 @@
       {{ $page_count := len .Pages }}
 
       {{ with (first $n_posts .Pages.ByDate.Reverse) }}
-        {{- partial "partials/news-table.html" . -}}
+        {{- partial "news-table.html" . -}}
       {{ end }}
     </div>
     {{ if ge $page_count (add $n_posts 1) }}
