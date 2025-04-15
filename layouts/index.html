@@ -3,7 +3,7 @@
   {{ $hot_sections_count := len $hot_sections }}
   {{ if ge $hot_sections_count 1 }}
     {{ with $hot_sections.ByDate.Reverse }}
-      {{- partial "partials/hot-topic.html" . -}}
+      {{- partial "hot-topic.html" . -}}
     {{ end }}
   {{ end }}
   {{/* Create a variable with that section to use in multiple places. */}}
@@ -22,7 +22,7 @@
             <div class="nested-links f5 lh-copy">
               {{ $page_count := len .Pages }}
               {{ with (first $n_posts $section.ByDate.Reverse) }}
-              {{- partial "partials/news-table.html" . -}}
+              {{- partial "news-table.html" . -}}
               {{ end }}
             </div>
           </div>
